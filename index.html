@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="weather.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Weather</title>
+</head>
+
+   <body> 
+        <nav class="navbar">
+            <div class="Page-title">ElevenFifty-Weather</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Home</a><li>
+                    <li><a href="#">Cities</a></li>
+                    <li><a href="#">Sign-Up</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Warnings</a></li>
+                </ul>
+                </div>
+            </nav>
+
+        <article>
+            <div class="news">
+                    <a href="https://apnews.com/article/maui-hawaii-wildfires-electric-utility-c3513c2f8e451df6dab2e59a6c2f670d"> <img src="background-images/fire.jpg" width="200px" height="200px"class="fire"> <h3>Fires in Maui Spread across the city destroying </h3> </a>
+                </div>
+        </article>
+
+
+  <div class="videos">
+            <video autoplay loop muted plays-inline class="bvideo">
+                <source src="background-images/clouds 2.mp4" type="video/mp4">
+            </video>
+    </div> 
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button> <img src="weather-icons/search.png"></button>
+            
+        </div>
+
+     <div class = "error" >
+            <p><em>Incorrect Spelling</em></p>
+    </div>
+
+
+    <div class="weather">
+            <img src="weather-icons/rain.png" class="weather-icons">
+            <h1 class = "temp">72°c</h1>
+            <h2 class = "city">Indianapolis</h2>
+            
+    <div class="details">
+        <div class="col">
+            <img src="weather-icons/humidity.png">
+                <div>
+                     <p class="humidity">70%</p>
+                     <p>humidity</p>
+                    </div>
+                </div>
+
+            <div class="col">
+                    <img src="weather-icons/wind.png">
+                        <div>
+                             <p class="wind">6 mph</p>
+                             <p>wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    </body>
+</html>
